@@ -1,10 +1,11 @@
 import React from 'react';
+import { Landingpage } from './Pages';
 
 function App() {
 
   return (
     <>
-     <h1>Analytics landing page</h1>
+     <Landingpage />
     </>
   )
 }
