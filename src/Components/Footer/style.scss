@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.footer-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    border-top: 10px solid #EF2A82;
+    
+    .nav-container{
+        display: flex;
+        gap: 25px;
+        a{
+            text-decoration: none;
+        }
+    }
+    .socialmedia-container{
+        display: flex;
+        gap: 25px;
+        img{
+            fill: #EF2A82;
+        }
+    }
+
+}
