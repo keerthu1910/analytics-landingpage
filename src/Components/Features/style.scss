@@ -17,17 +17,22 @@
     .text-container{
         h1{
             color:#172755;
+            text-align:centre;
         }
     }
     .text-content{
         margin: 30px;
-        text-align: center;
+        text-align: justify;
         color: #8794BA;
-
+       
     }
     .features{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        @media only screen and ( max-width:475px) and (min-width:320px){
+            display: flex;
+            flex-direction: column;
+        }
         .feature{
             display: flex;
             padding: 30px;
@@ -38,7 +43,9 @@
             .feature-text{
                 text-align: center;
                 color: #8794BA;
-
+                @media only screen and (max-width:1000px){
+                    display: none;
+                }
             }
             .feature-heading{
                 color:#172755;
