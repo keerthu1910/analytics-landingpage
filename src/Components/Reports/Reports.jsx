@@ -3,6 +3,7 @@ import './style.scss';
 import chart from '../../assets/chart.png';
 import bargraph from '../../assets/bargraph.png';
 import calendar from '../../assets/calendar.png';
+
 export const Reports = () => {
     return(
         <div className='report-container'>
